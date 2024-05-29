@@ -12,3 +12,5 @@ script.sh
 
 # macOS
 .DS_Store
+
+node_modules
