@@ -28,6 +28,11 @@ margin-bottom:20px;
 
 `;
 
+const ImageContainer = styled(Image)`
+margin-left:20px;
+margin-bottom:20px;
+`;
+
 export const MyOrderScreen = ({ navigation }) => {
   const { headerToken } = useContext(AuthenticationContext);
   const [orderList, setOrderList] = useState([]);
@@ -51,7 +56,7 @@ export const MyOrderScreen = ({ navigation }) => {
   return (
     <SafeArea>
       <Header toLeft={true} navigation={navigation} title="My Order" />
-      {orderList.length === 0 ? (
+      {orderList.length > 0 ? (
         <OrderContainer>
           {orderList.map((o, i) => (
             <TouchableOpacity
