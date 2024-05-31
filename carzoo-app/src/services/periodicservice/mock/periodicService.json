@@ -1,0 +1,93 @@
+{
+  "results": [{
+      "id":"C4573",
+      "title": "Basic Service",
+      "images": [
+        "https://service-plans.s3.us-east-2.amazonaws.com/basic-plans/general-checkup.jpg",
+        "https://service-plans.s3.us-east-2.amazonaws.com/basic-plans/car-wash.jpg",
+        "https://service-plans.s3.us-east-2.amazonaws.com/basic-plans/break-test.jpg",
+        "https://service-plans.s3.us-east-2.amazonaws.com/basic-plans/tyre-check.jpg",
+        "https://service-plans.s3.us-east-2.amazonaws.com/basic-plans/wheel-aligment.jpg"
+        
+      ],
+      "image_cover": "../../../../assets/icon.png",
+      "price": 2099,
+      "features": [
+        "4 hours takes",
+        "Recommended for every 4000km / 3 Months",
+        "Includes 7 services",
+      ],
+      "services" : [
+        "General check up",
+        "Water wash",
+        "Wheel alignment",
+        "Tyre check",
+        "Break test",
+        "Mileage check"
+      ]
+    },
+    {
+      "id":"C4574",
+      "title": "Standard Service",
+      "image_cover": "../../../../assets/icon.png",
+      "price": 6099,
+      "features": [
+        "4 hours takes",
+        "Recommended for every 10000KM/6Months",
+        "Includes 10 services",
+      ],
+      "images": [
+
+        "https://service-plans.s3.us-east-2.amazonaws.com/standard-service/ac-check.jpg",
+        "https://service-plans.s3.us-east-2.amazonaws.com/standard-service/suspension-check.jpg",
+        "https://service-plans.s3.us-east-2.amazonaws.com/standard-service/car-check.jpg",
+        "https://service-plans.s3.us-east-2.amazonaws.com/comprehensive-service/battery-check.jpg",
+        "https://service-plans.s3.us-east-2.amazonaws.com/standard-service/car-oil-change.jpg",
+        
+      ],
+      "services":[
+        "General check up",
+        "Oil change",
+        "Coolent",
+        "Ac check",
+        "Water wash",
+        "Wheel alignment",
+        "Tyre check",
+        "Break test",
+        "Mileage check"
+      ]
+    },
+    {"id":"C4575",
+      "title": "Comprehensive Service",
+      "images": [
+        "https://service-plans.s3.us-east-2.amazonaws.com/comprehensive-service/battery-check.jpg",
+        "https://service-plans.s3.us-east-2.amazonaws.com/comprehensive-service/car-check.jpg",
+        "https://service-plans.s3.us-east-2.amazonaws.com/comprehensive-service/car-clean.jpg",
+        "https://service-plans.s3.us-east-2.amazonaws.com/comprehensive-service/tyre-check.jpg",
+        "https://service-plans.s3.us-east-2.amazonaws.com/standard-service/car-oil-change.jpg",
+        
+      ],
+      "image_cover": "../../../../assets/icon.png",
+      "price": 10099,
+      "features": [
+        "5 hours takes",
+        "Recommended for every 25000KM/10Months",
+        "Includes 13 services",
+      ],
+      "services":[
+        "Oil change",
+        "Coolent",
+        "A/C check",
+        "General check up",
+        "Water wash",
+        "Wheel alignment",
+        "Tyre check",
+        "Break test",
+        "Mileage check",
+        "Break liner change",
+        "Suspension check",
+        "Break,power steering oil"
+      ]
+    }
+  ]
+};
